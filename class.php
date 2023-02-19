@@ -20,3 +20,4 @@ class Phone
 
 $iPhone6 = new Phone("black", "i phone 6", "Apple");
 $iPhone6->printObject();
+echo $iPhone6->model;

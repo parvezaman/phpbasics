@@ -96,4 +96,4 @@ echo "<br>";
 echo $nokia1250 -> print_batteryLife(); // you cant call outside the inheritant because of its being protected proterty
 echo "<br>";
 $nokia1250->set_weight("213 gm");
-echo $nokia1250 -> print_weight(); // you cant call outside the inheritant because of its being protected proterty
+echo "I like {$nokia1250 -> print_weight()} weight to my hand in {$nokia1250->model} phone"; // you cant call outside the inheritant because of its being protected proterty

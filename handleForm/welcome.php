@@ -12,11 +12,14 @@
 <body>
     <?php
     print_r($_POST);
-    print_r($_GET);
+    // print_r($_GET);
     echo "<pre>";
-    var_dump($_SERVER);
+    // var_dump($_SERVER);
+    var_dump($_FILES);
     // print_r($_SERVER);
     echo "</pre>";
+
+    echo basename("welcome.php");
     ?>
     <h1>welcome aboard!
         <?php echo $_POST["name"]?>

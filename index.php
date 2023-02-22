@@ -60,11 +60,13 @@
 </head>
 
 <body>
-    <form action="handleForm/welcome.php" method="post">
+    <form action="handleForm/welcome.php" method="post" enctype="multipart/form-data">
         <label for="name">name</label>
         <input type="text" name="name" id="name" placeholder="your name...">
         <label for="email">email</label>
         <input type="email" name="email" id="email" placeholder="your email...">
+        <label for="fileToUpload">Select file to upload</label>
+        <input type="file" name="fileToUpload" id="fileToUpload">
         <input type="submit">
     </form>
 </body>
